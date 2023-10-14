@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    width: 100%;
+}
+nav{
+display: flex;
+background-color: black;
+color: aliceblue;
+height: 5vh;
+justify-content: space-between;
+align-items: center;
+}
+
+h3 {
+    border: 1px solid white;
+    margin-left: 5%;
+    font-size: 22px;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    
+    margin-left: 20%;
+    width: 50%;
+}
+.list-items > a{
+   
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hero > img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 50% 67%;
+}
+.hero > h1 {
+    position: absolute;
+    top: 20%;
+    color: aliceblue;
+    font-size: 75px;
+}
+main {
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+}
+
+.marq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+}
+.marq > img {
+    width: 25%;
+    margin-left: 2%;
+}
+.marq > article {
+    margin-right: 20%;
+}
+.date {
+    width: 100%;
+    margin-top: 8vh;
+    border: 1px solid rgb(201, 196, 196);
+}
+
+.marq > article > p, .marq > article > h4 {
+    margin-bottom: 3vh;
+}
+.marq > button {
+    width: 105px;
+    height: 55px;
+    font-size: 15px;
+    background-color: rgb(247, 164, 9);
+    border: 1px solid rgb(235, 159, 18);
+    color: aliceblue;
+}
+hr {
+    margin-top: 1.5vh;
+    border: 1px solid lightgray;
+}
